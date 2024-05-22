@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ep-lingering-rice-a5qm9a1r.us-east-2.aws.neon.tech/resumeDB?sslmode=require
+    username: resumeDB_owner
+    password: PyU41RMfuYVE
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
